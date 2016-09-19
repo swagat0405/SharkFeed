@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SharkFeedCollectionViewController.h
 //  SharkFeed
 //
 //  Created by Mishra, Swagat on 9/15/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SharkFeedCollectionViewController : UICollectionViewController
 
 @end
-

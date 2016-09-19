@@ -7,9 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C72082D31D8B0F20006C345D /* SharkFeedCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72082D21D8B0F20006C345D /* SharkFeedCollectionViewController.m */; };
+		C72082D81D8B2858006C345D /* SharkPhotosCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C72082D71D8B2858006C345D /* SharkPhotosCollectionViewCell.m */; };
+		C72082DD1D8B7AB3006C345D /* SharkFeedServiceLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C72082DC1D8B7AB3006C345D /* SharkFeedServiceLibrary.m */; };
+		C72082E01D8B88D2006C345D /* SharkPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C72082DF1D8B88D2006C345D /* SharkPhoto.m */; };
+		C72082E81D8C498C006C345D /* LightBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C72082E71D8C498C006C345D /* LightBoxViewController.m */; };
+		C72082EB1D8C4B47006C345D /* PhotoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C72082EA1D8C4B47006C345D /* PhotoInfo.m */; };
+		C72082F51D8C76C5006C345D /* NavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C72082F41D8C76C5006C345D /* NavigationBarView.xib */; };
+		C72083271D8DD8E3006C345D /* LightBoxSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C72083261D8DD8E3006C345D /* LightBoxSegue.m */; };
+		C720832A1D8E3B0A006C345D /* UnwindLightBoxSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = C72083291D8E3B0A006C345D /* UnwindLightBoxSegue.m */; };
 		C7A66FAB1D8B0A78004B9F44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A66FAA1D8B0A78004B9F44 /* main.m */; };
 		C7A66FAE1D8B0A78004B9F44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A66FAD1D8B0A78004B9F44 /* AppDelegate.m */; };
-		C7A66FB11D8B0A78004B9F44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A66FB01D8B0A78004B9F44 /* ViewController.m */; };
 		C7A66FB41D8B0A78004B9F44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A66FB21D8B0A78004B9F44 /* Main.storyboard */; };
 		C7A66FB61D8B0A78004B9F44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A66FB51D8B0A78004B9F44 /* Assets.xcassets */; };
 		C7A66FB91D8B0A78004B9F44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A66FB71D8B0A78004B9F44 /* LaunchScreen.storyboard */; };
@@ -35,12 +43,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C72082D11D8B0F20006C345D /* SharkFeedCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkFeedCollectionViewController.h; sourceTree = "<group>"; };
+		C72082D21D8B0F20006C345D /* SharkFeedCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkFeedCollectionViewController.m; sourceTree = "<group>"; };
+		C72082D61D8B2858006C345D /* SharkPhotosCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkPhotosCollectionViewCell.h; sourceTree = "<group>"; };
+		C72082D71D8B2858006C345D /* SharkPhotosCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkPhotosCollectionViewCell.m; sourceTree = "<group>"; };
+		C72082DB1D8B7AB3006C345D /* SharkFeedServiceLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkFeedServiceLibrary.h; sourceTree = "<group>"; };
+		C72082DC1D8B7AB3006C345D /* SharkFeedServiceLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkFeedServiceLibrary.m; sourceTree = "<group>"; };
+		C72082DE1D8B88D2006C345D /* SharkPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkPhoto.h; sourceTree = "<group>"; };
+		C72082DF1D8B88D2006C345D /* SharkPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkPhoto.m; sourceTree = "<group>"; };
+		C72082E61D8C498C006C345D /* LightBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightBoxViewController.h; sourceTree = "<group>"; };
+		C72082E71D8C498C006C345D /* LightBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightBoxViewController.m; sourceTree = "<group>"; };
+		C72082E91D8C4B47006C345D /* PhotoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoInfo.h; sourceTree = "<group>"; };
+		C72082EA1D8C4B47006C345D /* PhotoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoInfo.m; sourceTree = "<group>"; };
+		C72082F41D8C76C5006C345D /* NavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarView.xib; sourceTree = "<group>"; };
+		C72083251D8DD8E3006C345D /* LightBoxSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightBoxSegue.h; sourceTree = "<group>"; };
+		C72083261D8DD8E3006C345D /* LightBoxSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightBoxSegue.m; sourceTree = "<group>"; };
+		C72083281D8E3B0A006C345D /* UnwindLightBoxSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnwindLightBoxSegue.h; sourceTree = "<group>"; };
+		C72083291D8E3B0A006C345D /* UnwindLightBoxSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnwindLightBoxSegue.m; sourceTree = "<group>"; };
 		C7A66FA61D8B0A78004B9F44 /* SharkFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharkFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A66FAA1D8B0A78004B9F44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7A66FAC1D8B0A78004B9F44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7A66FAD1D8B0A78004B9F44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C7A66FAF1D8B0A78004B9F44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C7A66FB01D8B0A78004B9F44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C7A66FB31D8B0A78004B9F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7A66FB51D8B0A78004B9F44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A66FB81D8B0A78004B9F44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,13 +126,28 @@
 			children = (
 				C7A66FAC1D8B0A78004B9F44 /* AppDelegate.h */,
 				C7A66FAD1D8B0A78004B9F44 /* AppDelegate.m */,
-				C7A66FAF1D8B0A78004B9F44 /* ViewController.h */,
-				C7A66FB01D8B0A78004B9F44 /* ViewController.m */,
+				C72082D11D8B0F20006C345D /* SharkFeedCollectionViewController.h */,
+				C72082D21D8B0F20006C345D /* SharkFeedCollectionViewController.m */,
+				C72082D61D8B2858006C345D /* SharkPhotosCollectionViewCell.h */,
+				C72082D71D8B2858006C345D /* SharkPhotosCollectionViewCell.m */,
 				C7A66FB21D8B0A78004B9F44 /* Main.storyboard */,
 				C7A66FB51D8B0A78004B9F44 /* Assets.xcassets */,
 				C7A66FB71D8B0A78004B9F44 /* LaunchScreen.storyboard */,
 				C7A66FBA1D8B0A78004B9F44 /* Info.plist */,
 				C7A66FA91D8B0A78004B9F44 /* Supporting Files */,
+				C72082DB1D8B7AB3006C345D /* SharkFeedServiceLibrary.h */,
+				C72082DC1D8B7AB3006C345D /* SharkFeedServiceLibrary.m */,
+				C72082DE1D8B88D2006C345D /* SharkPhoto.h */,
+				C72082DF1D8B88D2006C345D /* SharkPhoto.m */,
+				C72082E61D8C498C006C345D /* LightBoxViewController.h */,
+				C72082E71D8C498C006C345D /* LightBoxViewController.m */,
+				C72082E91D8C4B47006C345D /* PhotoInfo.h */,
+				C72082EA1D8C4B47006C345D /* PhotoInfo.m */,
+				C72082F41D8C76C5006C345D /* NavigationBarView.xib */,
+				C72083251D8DD8E3006C345D /* LightBoxSegue.h */,
+				C72083261D8DD8E3006C345D /* LightBoxSegue.m */,
+				C72083281D8E3B0A006C345D /* UnwindLightBoxSegue.h */,
+				C72083291D8E3B0A006C345D /* UnwindLightBoxSegue.m */,
 			);
 			path = SharkFeed;
 			sourceTree = "<group>";
@@ -207,7 +245,7 @@
 				TargetAttributes = {
 					C7A66FA51D8B0A78004B9F44 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 2QVH7MS756;
+						DevelopmentTeam = 6WY34N5R79;
 					};
 					C7A66FBE1D8B0A78004B9F44 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -249,6 +287,7 @@
 				C7A66FB91D8B0A78004B9F44 /* LaunchScreen.storyboard in Resources */,
 				C7A66FB61D8B0A78004B9F44 /* Assets.xcassets in Resources */,
 				C7A66FB41D8B0A78004B9F44 /* Main.storyboard in Resources */,
+				C72082F51D8C76C5006C345D /* NavigationBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +312,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A66FB11D8B0A78004B9F44 /* ViewController.m in Sources */,
+				C72083271D8DD8E3006C345D /* LightBoxSegue.m in Sources */,
+				C72082EB1D8C4B47006C345D /* PhotoInfo.m in Sources */,
 				C7A66FAE1D8B0A78004B9F44 /* AppDelegate.m in Sources */,
+				C72082D31D8B0F20006C345D /* SharkFeedCollectionViewController.m in Sources */,
+				C72082DD1D8B7AB3006C345D /* SharkFeedServiceLibrary.m in Sources */,
+				C72082E81D8C498C006C345D /* LightBoxViewController.m in Sources */,
 				C7A66FAB1D8B0A78004B9F44 /* main.m in Sources */,
+				C72082E01D8B88D2006C345D /* SharkPhoto.m in Sources */,
+				C72082D81D8B2858006C345D /* SharkPhotosCollectionViewCell.m in Sources */,
+				C720832A1D8E3B0A006C345D /* UnwindLightBoxSegue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +394,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -393,6 +440,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -418,10 +466,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SharkFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SM.SharkFeed;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swagat.SharksFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -429,10 +480,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SharkFeed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SM.SharkFeed;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Swagat.SharksFeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -442,7 +496,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SharkFeedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SM.SharkFeedTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swagatmishra.SharkFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharkFeed.app/SharkFeed";
 			};
@@ -454,7 +508,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SharkFeedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SM.SharkFeedTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swagatmishra.SharkFeedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SharkFeed.app/SharkFeed";
 			};
@@ -465,7 +519,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = SharkFeedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SM.SharkFeedUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swagatmishra.SharkFeedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SharkFeed;
 			};
@@ -476,7 +530,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = SharkFeedUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SM.SharkFeedUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swagatmishra.SharkFeedUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SharkFeed;
 			};
@@ -501,6 +555,7 @@
 				C7A66FD51D8B0A78004B9F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A66FD61D8B0A78004B9F44 /* Build configuration list for PBXNativeTarget "SharkFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +564,7 @@
 				C7A66FD81D8B0A78004B9F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7A66FD91D8B0A78004B9F44 /* Build configuration list for PBXNativeTarget "SharkFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +573,7 @@
 				C7A66FDB1D8B0A78004B9F44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
